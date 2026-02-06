@@ -1,0 +1,161 @@
+{
+  "module": "account",
+  "questions_mapping": [
+    {
+      "section": "1. Contexte général",
+      "odoo_field": "info_objectifs",
+      "question": "Quels sont vos principaux objectifs en utilisant le module facturation d’Odoo ?",
+      "data_type": "selection",
+      "options": ["Suivi des paiements clients", "Émission rapide des factures", "Gestion des factures fournisseurs", "Conformité fiscale"],
+      "is_config": false
+    },
+    {
+      "section": "1. Contexte général",
+      "odoo_field": "info_erp_actuel",
+      "question": "Utilisez-vous déjà un ERP/logiciel pour la gestion comptable ?",
+      "data_type": "selection",
+      "options": ["Oui", "Non / Excel"],
+      "is_config": false
+    },
+    {
+      "section": "1. Contexte général",
+      "odoo_field": "info_gestion_compta",
+      "question": "Comment gérez-vous votre comptabilité ?",
+      "data_type": "selection",
+      "options": ["En interne", "Partiellement externalisé", "Totalement externalisé"],
+      "is_config": false
+    },
+    {
+      "section": "1. Contexte général",
+      "odoo_field": "info_integration_valeur",
+      "question": "Votre process comptable actuel est-il intégré avec la chaîne de valeur (Ventes/Achats/Inventaire) ?",
+      "data_type": "selection",
+      "options": ["Oui, totalement", "Partiellement", "Aucune intégration"],
+      "is_config": false
+    },
+    {
+      "section": "1. Contexte général",
+      "odoo_field": "info_journaux_specifiques",
+      "question": "Souhaitez-vous utiliser des journaux spécifiques pour différencier les types d’opérations ?",
+      "data_type": "selection",
+      "options": ["Oui, pour chaque type d'opération", "Oui, seulement opérations principales", "Non"],
+      "is_config": false
+    },
+    {
+      "section": "2. Facturation clients",
+      "odoo_field": "info_validation_ventes",
+      "question": "Avez-vous une politique de validation pour les factures de ventes ?",
+      "data_type": "selection",
+      "options": ["Oui", "Pour les paiements uniquement", "Pour les paiements de montants élevés", "Non"],
+      "is_config": false
+    },
+    {
+      "section": "2. Facturation clients",
+      "odoo_field": "info_modes_paiement_clients",
+      "question": "Quels modes de paiement utilisez-vous pour vos clients ?",
+      "data_type": "selection",
+      "options": ["Virement bancaire", "Carte de crédit", "Chèque", "Espèces", "Autre"],
+      "is_config": false
+    },
+    {
+      "section": "2. Facturation clients",
+      "odoo_field": "group_use_credit_limit",
+      "question": "Appliquez-vous une limite de crédit pour vos clients ?",
+      "data_type": "boolean",
+      "is_config": true
+    },
+    {
+      "section": "2. Facturation clients",
+      "odoo_field": "module_account_reports_followup",
+      "question": "Avez-vous besoin d’un système de suivi des paiements clients en retard ?",
+      "data_type": "selection",
+      "options": ["Oui, avec des rappels automatiques", "Oui, uniquement notifications manuelles", "Non"],
+      "is_config": true
+    },
+    {
+      "section": "3. Facturation fournisseurs",
+      "odoo_field": "info_validation_fournisseurs",
+      "question": "Avez-vous des politiques de validation spécifiques pour les factures fournisseurs ?",
+      "data_type": "selection",
+      "options": ["Oui, toutes les factures", "Oui, les paiements uniquement", "Oui, les paiements de montants élevés", "Non"],
+      "is_config": false
+    },
+    {
+      "section": "3. Facturation fournisseurs",
+      "odoo_field": "info_modes_paiement_achats",
+      "question": "Quels sont les moyens de paiements que vous utilisez pour les factures d'achats ?",
+      "data_type": "selection",
+      "options": ["Chèques", "Virement", "Effets", "Versements", "Autre"],
+      "is_config": false
+    },
+    {
+      "section": "3. Facturation fournisseurs",
+      "odoo_field": "module_account_batch_payment",
+      "question": "Souhaitez-vous utiliser les paiements par lots pour vos factures d'achat ?",
+      "data_type": "boolean",
+      "is_config": true
+    },
+    {
+      "section": "4. Gestion de trésorerie",
+      "odoo_field": "info_nb_comptes_bancaires",
+      "question": "Combien de comptes bancaires souhaitez-vous intégrer dans Odoo ?",
+      "data_type": "selection",
+      "options": ["1 seul compte", "2 à 5 comptes", "Plus de 5 comptes"],
+      "is_config": false
+    },
+    {
+      "section": "4. Gestion de trésorerie",
+      "odoo_field": "module_currency_rate_live",
+      "question": "Utilisez-vous des devises étrangères dans vos transactions ?",
+      "data_type": "boolean",
+      "is_config": true
+    },
+    {
+      "section": "4. Gestion de trésorerie",
+      "odoo_field": "info_conditions_paiement_particulieres",
+      "question": "Avez-vous des conditions de paiement particulières (ex : paiement partiel, échéance prolongée) ?",
+      "data_type": "selection",
+      "options": ["Oui, pour certains clients", "Oui, pour tous les clients", "Non"],
+      "is_config": false
+    },
+    {
+      "section": "4. Gestion de trésorerie",
+      "odoo_field": "module_account_reports",
+      "question": "Souhaitez-vous envoyer automatiquement des rappels pour les factures impayées ?",
+      "data_type": "selection",
+      "options": ["Oui, pour toutes les factures", "Oui, seulement certaines catégories", "Non"],
+      "is_config": true
+    },
+    {
+      "section": "5. Fiscalité",
+      "odoo_field": "tax_exigibility",
+      "question": "Quel est le régime de TVA que vous adoptez ?",
+      "data_type": "selection",
+      "options": ["TVA sur encaissement", "TVA sur engagement"],
+      "is_config": true
+    },
+    {
+      "section": "5. Fiscalité",
+      "odoo_field": "info_taux_tva_ventes",
+      "question": "Quels taux de TVA s'appliquent sur vos ventes ?",
+      "data_type": "selection",
+      "options": ["20 %", "10 %", "Autres"],
+      "is_config": false
+    },
+    {
+      "section": "5. Fiscalité",
+      "odoo_field": "info_taux_tva_achats",
+      "question": "Quels taux de TVA s'appliquent à vos achats ?",
+      "data_type": "selection",
+      "options": ["20%", "10%", "Autres"],
+      "is_config": false
+    },
+    {
+      "section": "5. Fiscalité",
+      "odoo_field": "info_declaration_tva_odoo",
+      "question": "Souhaitez-vous générer la déclaration de TVA sur Odoo ?",
+      "data_type": "boolean",
+      "is_config": false
+    }
+  ]
+}

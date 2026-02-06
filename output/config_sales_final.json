@@ -1,0 +1,16 @@
+{
+    "group_product_variant": true,
+    "group_uom": true,
+    "module_product_email_template": true,
+    "group_discount_per_so_line": false,
+    "group_product_pricelist": true,
+    "module_loyalty": false,
+    "module_sale_margin": false,
+    "portal_confirmation_sign": true,
+    "portal_confirmation_pay": true,
+    "quotation_validity_days": 10,
+    "group_warning_sale": true,
+    "group_proforma_sales": true,
+    "module_delivery": true,
+    "default_invoice_policy": "je facture aprés livraison de mes produits"
+}

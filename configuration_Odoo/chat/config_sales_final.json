@@ -1,0 +1,19 @@
+{
+    "module": "sales",
+    "configuration": {
+        "group_product_variant": true,
+        "group_uom": true,
+        "module_product_email_template": true,
+        "group_discount_per_so_line": true,
+        "group_product_pricelist": true,
+        "module_sale_margin": true,
+        "portal_confirmation_sign": true,
+        "quotation_validity_days": 30,
+        "group_proforma_sales": true,
+        "module_delivery": true,
+        "module_loyalty": true,
+        "portal_confirmation_pay": true,
+        "group_warning_sale": false,
+        "default_invoice_policy": "delivery"
+    }
+}

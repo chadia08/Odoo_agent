@@ -1,0 +1,418 @@
+Quels sont vos principaux objectifs en utilisant le module facturation d’Odoo ?
+
+Clé
+
+A
+
+Suivi des paiements clients
+
+Clé
+
+B
+
+Émission rapide des factures
+
+Clé
+
+C
+
+Gestion des factures fournisseurs
+
+Clé
+
+D
+
+Conformité fiscale
+
+
+
+Utiliser vous déjà un ERP/logiciel pour la gestion comptable
+
+Clé
+
+A
+
+Oui
+
+Clé
+
+B
+
+Non / Excel
+
+Comment gérer vous votre comptabilité ?
+
+Clé
+
+A
+
+En interne
+
+Clé
+
+B
+
+Partiellement externalisé
+
+Clé
+
+C
+
+Totalement externalisé
+
+Votre process comptable actuel est-il intégré avec la chaîne de valeur (Ventes/Achats/Inventaire) ?
+
+Clé
+
+A
+
+Oui, totalement
+
+Clé
+
+B
+
+Partiellement
+
+Clé
+
+C
+
+Aucune intégration
+
+Souhaitez-vous utiliser des journaux spécifiques pour différencier les types d’opérations (ex : achats, ventes, bancaires) ?
+
+Clé
+
+A
+
+Oui, pour chaque type d'opération
+
+Clé
+
+B
+
+Oui, mais seulement pour les opérations principales
+
+Clé
+
+C
+
+Non
+
+Avez-vous une politique de validation pour les factures de ventes ?
+
+Clé
+
+A
+
+Oui
+
+Clé
+
+B
+
+Pour les paiements uniquement
+
+Clé
+
+C
+
+Pour les paiements de montants élevés
+
+Clé
+
+D
+
+Non
+
+Quels modes de paiement utilisez-vous pour vos clients ?
+
+Clé
+
+A
+
+Virement bancaire
+
+Clé
+
+B
+
+Carte de crédit
+
+Clé
+
+C
+
+Chèque
+
+Clé
+
+D
+
+Espèces
+
+Clé
+
+E
+
+Autre :
+
+à spécifier
+
+Appliquez-vous une limite de crédit pour vos clients?
+
+Clé
+
+A
+
+Oui
+
+Clé
+
+B
+
+Non
+
+Avez-vous besoin d’un système de suivi des paiements clients en retard ?
+
+Clé
+
+A
+
+Oui, avec des rappels automatiques
+
+Clé
+
+B
+
+Oui, mais uniquement des notifications manuelles
+
+Clé
+
+C
+
+Non
+
+Avez-vous des politiques de validation spécifiques pour les factures fournisseurs ?
+
+Clé
+
+A
+
+Oui, toutes les factures
+
+Clé
+
+B
+
+Oui, les paiements uniquement
+
+Clé
+
+C
+
+Oui, les paiements de montants élevés
+
+Clé
+
+D
+
+Non, pas de processus de validation
+
+Quels sont les moyens de paiements que vous utilisez pour les factures d'achats ?
+
+Clé
+
+A
+
+Chèques
+
+Clé
+
+B
+
+Virement
+
+Clé
+
+C
+
+Effets
+
+Clé
+
+D
+
+Versements
+
+Clé
+
+E
+
+Autre :
+
+Souhaitez-vous utiliser les paiements par lots pour vos factures d'achat?
+
+Clé
+
+A
+
+Oui
+
+Clé
+
+B
+
+Non
+
+Combien de comptes bancaires souhaitez-vous intégrer dans Odoo ?
+
+Clé
+
+A
+
+1 seul compte
+
+Clé
+
+B
+
+2 à 5 comptes
+
+Clé
+
+C
+
+Plus de 5 comptes
+
+Utilisez-vous des devises étrangères dans vos transactions ?
+
+Clé
+
+A
+
+Oui, régulièrement
+
+Clé
+
+B
+
+Oui, mais occasionnellement
+
+Clé
+
+C
+
+Non
+
+Utilisez-vous des devises étrangères dans vos transactions ?
+
+Clé
+
+A
+
+Oui, régulièrement
+
+Clé
+
+B
+
+Oui, mais occasionnellement
+
+Clé
+
+C
+
+Non
+
+Souhaitez-vous envoyer automatiquement des rappels pour les factures impayées ?
+
+Clé
+
+A
+
+Oui, pour toutes les factures
+
+Clé
+
+B
+
+Oui, mais seulement pour certaines catégories de clients
+
+Clé
+
+C
+
+Non
+
+Quel est le régime de TVA que vous adoptez ?
+
+Clé
+
+A
+
+TVA sur encaissement
+
+Clé
+
+B
+
+TVA sur engagement
+
+Quels taux de TVA s'appliquent sur vos ventes
+
+Clé
+
+A
+
+20 %
+
+Clé
+
+B
+
+10 %
+
+Clé
+
+C
+
+Autres taux intermédiaires, lesquels :
+
+Quels taux de TVA s'appliquent à vos achats ?
+
+Clé
+
+A
+
+20%
+
+Clé
+
+B
+
+10%
+
+Clé
+
+C
+
+Autres taux intermédiaires, lesquels :
+
+Souhaitez-vous générer la déclaration de TVA sur Odoo?
+
+Clé
+
+A
+
+Oui
+
+Clé
+
+B
+
+Non
+
+
+

@@ -1,0 +1,54 @@
+{
+  "module": "crm",
+  "questions_mapping": [
+    {
+      "section": "CRM",
+      "odoo_field": "group_use_recurring_revenues",
+      "question": "Souhaitez-vous configurer des plans et des revenus récurrents sur les opportunités dans le CRM ?",
+      "data_type": "boolean",
+      "description": "Définir des plans et des revenus récurrents sur les opportunités."
+    },
+    {
+      "section": "CRM",
+      "odoo_field": "group_use_lead",
+      "question": "Préférez-vous ajouter une étape de qualification avant de créer une opportunité pour mieux gérer les pistes ?",
+      "data_type": "boolean",
+      "description": "Ajouter une étape de qualification (Leads) avant de créer une opportunité."
+    },
+    {
+      "section": "CRM",
+      "odoo_field": "is_membership_multi",
+      "question": "Avez-vous besoin de la possibilité d'affecter des vendeurs à plusieurs équipes commerciales dans le CRM ?",
+      "data_type": "boolean",
+      "description": "Affecter des vendeurs à plusieurs équipes commerciales."
+    },
+    {
+      "section": "CRM",
+      "odoo_field": "crm_use_auto_assignment",
+      "question": "Souhaitez-vous configurer une assignation périodique des pistes en fonction de règles spécifiques dans le CRM ?",
+      "data_type": "boolean",
+      "description": "Attribuez périodiquement des pistes en fonction des priorités et des filtres."
+    },
+    {
+      "section": "Génération de pistes",
+      "odoo_field": "module_crm_iap_enrich",
+      "question": "Souhaitez-vous enrichir les pistes sur demande seulement ou préférez-vous enrichir automatiquement toutes les pistes ?",
+      "data_type": "boolean",
+      "description": "Enrichir vos pistes avec des données sur l'entreprise en fonction de leur adresse e-mail."
+    },
+    {
+      "section": "Génération de pistes",
+      "odoo_field": "module_crm_iap_mine",
+      "question": "Aimeriez-vous générer de nouvelles pistes en fonction de critères tels que le pays, le secteur d'activité, la taille de l'entreprise, etc. ?",
+      "data_type": "boolean",
+      "description": "Prospection de pistes : Générer de nouvelles pistes via les services IAP d'Odoo."
+    },
+    {
+      "section": "Génération de pistes",
+      "odoo_field": "module_website_crm_iap_reveal",
+      "question": "Souhaitez-vous convertir les visiteurs de votre site internet en piste dans le CRM et enrichir leurs données en se basant sur leur adresse IP ?",
+      "data_type": "boolean",
+      "description": "Visites en pistes : Conversion des visiteurs du site web en opportunités CRM."
+    }
+  ]
+}

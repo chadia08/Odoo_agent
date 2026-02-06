@@ -1,0 +1,401 @@
+Module Vente
+
+
+
+Catalogue des produits
+
+Tarifs
+
+Devis et commandes
+
+Expéditions
+
+Facturation
+
+Commission des commerciaux
+
+Catalogue des produits
+
+Quels types de produits ou services vendez-vous ?
+
+
+
+Avez-vous des besoins spécifiques en matière de tarification ou de remises ?
+
+Tarification
+
+Remise
+
+Aucun
+
+Souhaitez-vous activer la gestion des taxes et des codes fiscaux ?
+
+Oui
+
+Non
+
+Quelles sont les différentes variantes d'un produit que vous proposez ?
+
+
+
+Prévoyez-vous d'acheter et de vendre des produits dans des unités de mesure différentes ?
+
+Oui
+
+Non
+
+Souhaitez-vous envoyer un email spécifique lorsque la facture est validée ?
+
+Oui
+
+Non
+
+Autres spécifications relatives à vos besoins à tenir en compte?
+
+Module Vente
+
+
+
+Catalogue des produits
+
+Tarifs
+
+Devis et commandes
+
+Expéditions
+
+Facturation
+
+Commission des commerciaux
+
+Tarifs
+
+Quels types de tarifs utilisez-vous actuellement pour vos produits ou services ?
+
+
+
+
+
+Avez-vous besoin de gérer plusieurs listes de prix pour vos produits, avec des prix différents, des remises automatiques, etc. ?
+
+Oui
+
+Non
+
+Souhaitez-vous pouvoir accorder des remises sur les lignes de commande ?
+
+Oui
+
+Non
+
+Envisagez-vous de gérer des promotions, bons de réduction, cartes de fidélité, cartes-cadeaux et e-wallet pour vos clients ?
+
+Oui
+
+Non
+
+Prévoyez-vous d'afficher les marges sur les commandes pour mieux évaluer la rentabilité ?
+
+Oui
+
+Non
+
+Souhaitez-vous permettre à vos clients de se connecter pour consulter leurs documents ?
+
+Oui
+
+Non
+
+Si oui, préférez-vous une inscription gratuite ou sur invitation ?
+
+Inscription gratuite
+
+Invitation
+
+Autres spécifications relatives à vos besoins à tenir en compte?
+
+
+
+Module Vente
+
+
+
+Catalogue des produits
+
+Tarifs
+
+Devis et commandes
+
+Expéditions
+
+Facturation
+
+Commission des commerciaux
+
+Devis et commandes
+
+Quelles sont les valeurs par défaut que vous souhaitez utiliser lors de la création de nouveaux devis ?
+
+
+
+
+
+Est-il important de pouvoir les modifier sur chaque devis ?
+
+Oui
+
+Non
+
+Envisagez-vous de demander une signature électronique pour confirmer les commandes ?
+
+Oui
+
+Non
+
+Prévoyez-vous d'implémenter un système de paiement en ligne pour demander un paiement lors de la confirmation de la commande ?
+
+Oui
+
+Non
+
+Quelle serait la durée de validité par défaut des devis que vous émettiez ?
+
+
+
+Souhaitez-vous recevoir des avertissements sur les commandes pour certains produits ou clients spécifiques ?
+
+Oui
+
+Non
+
+Souhaitez-vous avoir la possibilité d'envoyer une facture pro forma à vos clients ?
+
+Oui
+
+Non
+
+Continuer
+
+Module Vente
+
+
+
+Catalogue des produits
+
+Tarifs
+
+Devis et commandes
+
+Expéditions
+
+Facturation
+
+Commission des commerciaux
+
+Expéditions
+
+Quels sont vos modes de livraison habituelles ?
+
+
+
+
+
+Souhaitez-vous calculer les frais d'expédition des commandes en fonction de ces modes de livraison ?
+
+Oui
+
+Non
+
+Est-il important d'afficher les incoterms sur les commandes et les factures pour clarifier les responsabilités et les frais liés à la livraison ?
+
+Oui
+
+Non
+
+Prévoyez-vous d'utiliser des connecteurs avec des transporteurs tels que Fedex, Bpost, UPS, DHL, ou d'autres transporteurs pour automatiser le processus d'expédition ?
+
+Oui
+
+Non
+
+Si oui, lesquels ?
+
+
+
+Module Vente
+
+
+
+Catalogue des produits
+
+Tarifs
+
+Devis et commandes
+
+Expéditions
+
+Facturation
+
+Commission des commerciaux
+
+Facturation
+
+Concernant les bons de commande, préférez-vous facturer les produits commandés dès la confirmation de la commande ou attendre la livraison effective des produits avant de les facturer ?
+
+la confirmation de la commande
+
+la livraison effective des produits
+
+Envisagez-vous d'accepter des acomptes pour certaines commandes ?
+
+Oui
+
+Non
+
+
+
+Module Vente
+
+
+
+Catalogue des produits
+
+Tarifs
+
+Devis et commandes
+
+Expéditions
+
+Facturation
+
+Commission des commerciauxCatalogue de produits
+
+Variantes
+Vendre les variantes d'un produit en utilisant les attributs (taille, couleur, ect.)
+
+Grille d'entrée des variantes
+Ajouter plusieurs variantes à une commande à partir d'une grille
+
+Unités de mesure et emballages
+Vendre et acheter des produits dans différentes unités de mesure ou conditionnements
+
+Envoyer le contenu par e-mail.
+Envoyer un e-mail spécifique quand la facture est validée
+Tarif
+
+Remises
+Accorder des remises sur les lignes de commande.
+
+Promotions, Fidélité & Cartes-Cadeaux
+Gérer les promotions, bons de réduction, cartes de fidélité, cartes-cadeaux & e-wallet
+
+Listes de prix
+Un produit peut avoir plusieurs prix, remises automatiques, etc.
+Compte client
+Permettre à vos clients de se connecter pour consulter leurs documents
+Sur invitation
+Inscription gratuite
+
+Marges
+Afficher les marges sur les commandes
+Devis & Commandes
+
+Signature en ligne
+Demandez aux clients de signer les devis pour valider les commandes. La valeur par défaut peut être modifiée par commande ou par modèle.
+
+Modèles de devis
+Créer des offres standardisées avec des produits par défaut
+Modèle par défaut
+
+Paiement en ligne
+Demandez le paiement total (100%) ou partiel pour confirmer les commandes. La valeur par défaut peut être modifiée par commande ou par modèle.
+Paiement 
+100
+%
+Validité par défaut du devis
+30
+jours
+Période par défaut pendant laquelle le devis est valide et peut être accepté par le client. La valeur par défaut peut être modifiée par commande ou par modèle.
+
+Avertissements de vente
+Recevoir des avertissements sur les commandes pour des produits ou clients
+
+Générateur de devis PDF
+Rendez votre devis attrayant en ajoutant des pages d'en-tête, des descriptions de produits et des pages de pied de page à votre devis.
+
+Verrouiller les ventes confirmées
+Ne plus pouvoir modifier les bons de commande dès qu'ils sont confirmés
+
+Facture pro forma
+Vous permet d'envoyer une facture pro forma à vos clients
+Expédition
+
+Modes de livraison
+Calculer les frais d'expédition des commandes
+Connecteur UPS
+Calculer les frais de livraison et expédier avec UPS
+(allez dans Accueil > Applications pour l’installer)
+Connecteur DHL
+Calculer les frais de livraison et expédier avec DHL
+(allez dans Accueil > Applications pour l’installer)
+Connecteur FedEx
+Calculer les frais de livraison et expédier avec FedEx
+(allez dans Accueil > Applications pour l’installer)
+Connecteur USPS
+Calculer les frais de livraison et expédier avec USPS
+(allez dans Accueil > Applications pour l’installer)
+
+Connecteur Bpost
+Calculer les frais d'expédition et expédier avec bpost
+
+Connecteur Easypost
+Calculer les frais d'expédition et expédier avec Easypost
+
+Connecteur SendCloud
+Calculer les frais d'expédition et expédier avec Sendcloud
+
+Connecteur Shiprocket
+Calculer les frais d'expédition et expédier avec Shiprocket
+
+Connecteur Starshipit
+Calculer les frais d'expédition et expédier avec Starshipit
+
+Connecteur Envia.com
+Calculer les frais d'expédition et expédier avec Envia.com
+Facturation
+Politique de facturation
+Quantités à facturer depuis les commandes clients
+Facturer les produits commandés
+Facturer les produits livrés
+
+Facture automatique
+Générer la facture automatiquement lorsque le paiement en ligne est confirmé.
+
+Commissions
+Gérer les objectifs d'équipes & de ventes ainsi que les commissions
+Connecteurs
+
+Synchronisation Amazon
+Importer des commandes Amazon et synchroniser les livraisons
+
+Gelato
+Passer des commandes via le service d'impression à la demande de Gelato
+
+Synchronisation Shopee
+Importer les commandes Shopee et synchroniser les livraisons
+
+Commission des commerciaux
+
+Quelles sont les règles de commission à mettre en oeuvre?
+
+
+
+
+
+Y'a t-il besoin de mettre en place des vues et rapports des commissions visibles pour les commerciaux et les administrateurs?
+
+Oui
+
+Non
+
+Si oui, merci de nous donner une brève description

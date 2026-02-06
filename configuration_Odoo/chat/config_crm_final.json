@@ -1,0 +1,12 @@
+{
+    "module": "crm",
+    "configuration": {
+        "group_use_lead": true,
+        "group_use_recurring_revenues": true,
+        "module_website_crm_iap_reveal": true,
+        "is_membership_multi": true,
+        "module_crm_iap_mine": true,
+        "module_crm_iap_enrich": true,
+        "crm_use_auto_assignment": false
+    }
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "name": "chart_template",
+    "label": "Chart Template",
+    "type": "selection",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "group_cash_rounding",
+    "label": "Cash Rounding",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "group_fiscal_year",
+    "label": "Fiscal Years",
+    "type": "boolean",
+    "modules": [
+      "account_accountant"
+    ]
+  },
+  {
+    "name": "group_lot_on_invoice",
+    "label": "Display Lots & Serial Numbers on Invoices",
+    "type": "boolean",
+    "modules": [
+      "stock_account"
+    ]
+  },
+  {
+    "name": "group_sale_delivery_address",
+    "label": "Customer Addresses",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "id",
+    "label": "ID",
+    "type": "integer",
+    "modules": [
+      "account",
+      "account_accountant",
+      "account_invoice_extract",
+      "account_payment",
+      "account_reports",
+      "stock_account",
+      "stock_accountant"
+    ]
+  },
+  {
+    "name": "module_account_accountant",
+    "label": "Accounting",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_bank_statement_extract",
+    "label": "Bank Statement Digitization",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_bank_statement_import_qif",
+    "label": "Import .qif files",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_batch_payment",
+    "label": "Use batch payments",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_budget",
+    "label": "Budget Management",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_check_printing",
+    "label": "Allow check printing and deposits",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_extract",
+    "label": "Document Digitization",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_intrastat",
+    "label": "Intrastat",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_invoice_extract",
+    "label": "Invoice Digitization",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_iso20022",
+    "label": "SEPA Credit Transfer / ISO20022",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_loan_extract",
+    "label": "Loans Digitization",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_payment",
+    "label": "Invoice Online Payment",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_peppol",
+    "label": "PEPPOL Invoicing",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_sepa_direct_debit",
+    "label": "Use SEPA Direct Debit",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_account_transfer",
+    "label": "Enable Auto Transfer",
+    "type": "boolean",
+    "modules": [
+      "account_accountant"
+    ]
+  },
+  {
+    "name": "module_currency_rate_live",
+    "label": "Automatic Currency Rates",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_product_margin",
+    "label": "Allow Product Margin",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_snailmail_account",
+    "label": "Snailmail",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "module_stock_landed_costs",
+    "label": "Landed Costs",
+    "type": "boolean",
+    "modules": [
+      "stock_account"
+    ]
+  },
+  {
+    "name": "pay_invoices_online",
+    "label": "Pay Invoices Online",
+    "type": "boolean",
+    "modules": [
+      "account_payment"
+    ]
+  },
+  {
+    "name": "show_sale_receipts",
+    "label": "Sale Receipt",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  },
+  {
+    "name": "use_invoice_terms",
+    "label": "Default Terms & Conditions",
+    "type": "boolean",
+    "modules": [
+      "account"
+    ]
+  }
+]

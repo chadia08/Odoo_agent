@@ -1,0 +1,111 @@
+{
+  "module": "ventes",
+  "questions_mapping": [
+    {
+      "section": "Catalogue des produits",
+      "odoo_field": "group_product_variant",
+      "question": "Souhaitez-vous gérer différentes variantes pour vos produits (tailles, couleurs, etc.) ?",
+      "data_type": "boolean",
+      "description": "Active les attributs et variantes de produits."
+    },
+    {
+      "section": "Catalogue des produits",
+      "odoo_field": "group_uom",
+      "question": "Vendez-vous des produits dans des unités de mesure différentes (ex: kilo, carton, unité) ?",
+      "data_type": "boolean",
+      "description": "Active la gestion des unités de mesure."
+    },
+    {
+      "section": "Catalogue des produits",
+      "odoo_field": "module_product_email_template",
+      "question": "Souhaitez-vous envoyer un email de confirmation automatique dès la validation d'une commande ?",
+      "data_type": "boolean",
+      "description": "Envoi d'un email automatique à la confirmation."
+    },
+    {
+      "section": "Tarifs",
+      "odoo_field": "group_discount_per_so_line",
+      "question": "Devez-vous appliquer des remises manuelles directement sur les lignes de vos devis ?",
+      "data_type": "boolean",
+      "description": "Autorise les remises par ligne de commande."
+    },
+    {
+      "section": "Tarifs",
+      "odoo_field": "group_product_pricelist",
+      "question": "Avez-vous besoin de gérer plusieurs listes de prix ou des tarifs spécifiques par client ?",
+      "data_type": "boolean",
+      "description": "Active les listes de prix avancées."
+    },
+    {
+      "section": "Tarifs",
+      "odoo_field": "module_loyalty",
+      "question": "Souhaitez-vous mettre en place des programmes de fidélité, des coupons ou des cartes cadeaux ?",
+      "data_type": "boolean",
+      "description": "Installe le module de fidélité et promotions."
+    },
+    {
+      "section": "Tarifs",
+      "odoo_field": "module_sale_margin",
+      "question": "Souhaitez-vous visualiser votre marge brute en temps réel sur vos devis ?",
+      "data_type": "boolean",
+      "description": "Affiche les marges sur les commandes."
+    },
+    {
+      "section": "Devis et commandes",
+      "odoo_field": "portal_confirmation_sign",
+      "question": "Voulez-vous autoriser vos clients à signer leurs devis en ligne ?",
+      "data_type": "boolean",
+      "description": "Active la signature électronique sur le portail."
+    },
+    {
+      "section": "Devis et commandes",
+      "odoo_field": "portal_confirmation_pay",
+      "question": "Souhaitez-vous que vos clients puissent payer directement en ligne pour confirmer leur commande ?",
+      "data_type": "boolean",
+      "description": "Active le paiement en ligne à la confirmation."
+    },
+    {
+      "section": "Devis et commandes",
+      "odoo_field": "quotation_validity_days",
+      "question": "Combien de jours vos devis restent-ils valables par défaut ?",
+      "data_type": "integer",
+      "description": "Délai de validité par défaut des offres."
+    },
+    {
+      "section": "Devis et commandes",
+      "odoo_field": "group_warning_sale",
+      "question": "Avez-vous besoin d'alertes visuelles sur les fiches clients ou produits lors de la vente ?",
+      "data_type": "boolean",
+      "description": "Active les messages d'avertissement."
+    },
+    {
+      "section": "Devis et commandes",
+      "odoo_field": "group_proforma_sales",
+      "question": "Avez-vous l'habitude d'émettre des factures Pro-forma avant la vente finale ?",
+      "data_type": "boolean",
+      "description": "Active l'option facture pro-forma."
+    },
+    {
+      "section": "Expéditions",
+      "odoo_field": "module_delivery",
+      "question": "Souhaitez-vous calculer automatiquement les frais de port sur vos commandes ?",
+      "data_type": "boolean",
+      "description": "Active les connecteurs de transporteurs et frais d'expédition."
+    },
+    {
+      "section": "Facturation",
+      "odoo_field": "default_invoice_policy",
+      "question": "Quelle est votre politique de facturation par défaut ?",
+      "data_type": "selection",
+      "options": [
+        "Facturer les produits commandés",
+        "Facturer les produits livrés"
+      ],
+      "options_mapping": {
+        "Facturer les produits commandés": "order",
+        "Facturer les produits livrés": "delivery"
+      },
+      "description": "Détermine le moment où une commande peut être facturée."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+[
+    {
+        "section": "Localisation fiscale",
+        "odoo_field": "chart_template",
+        "question": "Voulez-vous activer Localisation fiscale ?",
+        "data_type": "integer/char",
+        "options": [],
+        "description": "Taxes, positions fiscales, plan comptable & rapports légaux pour votre pays"
+    },
+    {
+        "section": "Taxes",
+        "odoo_field": "sale_tax_id",
+        "question": "Voulez-vous activer Taxes par défaut ?",
+        "data_type": "integer/char",
+        "options": [],
+        "description": "Taxes utilisées par défaut lors de la création de nouveaux produits."
+    },
+    {
+        "section": "Taxes",
+        "odoo_field": "tax_calculation_rounding_method",
+        "question": "Voulez-vous activer Méthode d'arrondi ?",
+        "data_type": "selection",
+        "options": [
+            "Arrondir par taxe",
+            "Arrondir à la ligne"
+        ],
+        "description": "Définir comment le montant total des taxes est calculé sur les commandes et factures"
+    },
+    {
+        "section": "Taxes",
+        "odoo_field": "tax_exigibility",
+        "question": "Voulez-vous activer Comptabilité de trésorerie ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Autoriser la configuration des taxes via la comptabilité de caisse"
+    },
+    {
+        "section": "Taxes",
+        "odoo_field": "account_fiscal_country_id",
+        "question": "Voulez-vous activer Pays d'imposition ?",
+        "data_type": "integer/char",
+        "options": [],
+        "description": "Pays national de votre comptabilité"
+    },
+    {
+        "section": "Devises",
+        "odoo_field": "currency_id",
+        "question": "Voulez-vous activer Devise principale ?",
+        "data_type": "integer/char",
+        "options": [],
+        "description": "Devise principale de votre société"
+    },
+    {
+        "section": "Devises",
+        "odoo_field": "module_currency_rate_live",
+        "question": "Voulez-vous activer Taux de change automatiques ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Mettre à jour les taux de change automatiquement"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "module_snailmail_account",
+        "question": "Voulez-vous activer Envoi postal ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Envoyer les factures et les rappels de paiement par courrier"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "group_sale_delivery_address",
+        "question": "Voulez-vous activer Adresses du client ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Sélectionner des adresses de facturation et d'expédition spécifiques"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "group_cash_rounding",
+        "question": "Voulez-vous activer Arrondi des paiements en espèces ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Définir la plus petite monnaie de la devise pouvant être utilisée pour payer en espèces."
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "incoterm_id",
+        "question": "Voulez-vous activer Incoterm par défaut ?",
+        "data_type": "integer/char",
+        "options": [],
+        "description": "Incoterm par défaut de votre société"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "show_sale_receipts",
+        "question": "Voulez-vous activer Reçu sur vente ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Activer pour créer un reçu de vente"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "use_invoice_terms",
+        "question": "Voulez-vous activer Conditions générales par défaut ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Ajouter vos conditions générales en bas des factures/commandes/devis"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "account_use_credit_limit",
+        "question": "Voulez-vous activer Limite de crédit de vente ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Déclencher des alertes lors de la création de factures et de commandes clients pour des partenaires dont le total des créances dépasse une limite. Définir une valeur supérieure à 0,0 pour activer la vérification du plafond de crédit"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "display_invoice_amount_total_words",
+        "question": "Voulez-vous activer Montant total de la facture en toutes lettres ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Afficher le montant total d'une facture en toutes lettres"
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "display_invoice_tax_company_currency",
+        "question": "Voulez-vous activer Taxes dans la devise de la société ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Les taxes sont également affichées en devise locale sur les factures."
+    },
+    {
+        "section": "Factures clients",
+        "odoo_field": "sign_invoice",
+        "question": "Voulez-vous activer Signataire autorisé sur la facture ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Pour plus d'authenticité, ajoutez une signature à vos factures"
+    },
+    {
+        "section": "Unités et conditionnements",
+        "odoo_field": "group_uom",
+        "question": "Voulez-vous activer Unités de mesure et emballages ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Vendre et acheter des produits dans différentes unités de mesure ou conditionnements"
+    },
+    {
+        "section": "Paiements clients",
+        "odoo_field": "pay_invoices_online",
+        "question": "Voulez-vous activer Paiement des factures en ligne ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Permettre à vos clients de payer leurs factures en ligne"
+    },
+    {
+        "section": "Paiements clients",
+        "odoo_field": "module_account_batch_payment",
+        "question": "Voulez-vous activer Paiements par lot ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Regrouper les paiements en une seule opération pour simplifier le processus de rapprochement."
+    },
+    {
+        "section": "Paiements clients",
+        "odoo_field": "qr_code",
+        "question": "Voulez-vous activer Codes QR ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Ajouter un code QR aux factures"
+    },
+    {
+        "section": "Factures fournisseurs",
+        "odoo_field": "autopost_bills",
+        "question": "Voulez-vous activer Validation automatique de factures ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Proposer de valider automatiquement les factures lorsqu'une précision correcte est détectée trois fois de suite par l’IA pour un fournisseur."
+    },
+    {
+        "section": "Factures fournisseurs",
+        "odoo_field": "predict_bill_product",
+        "question": "Voulez-vous activer Prédire le produit sur la facture fournisseur ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Le système tentera de prédire le produit sur les lignes de la facture fournisseur sur la base du libellé de la ligne"
+    },
+    {
+        "section": "Paiements fournisseurs",
+        "odoo_field": "module_account_iso20022",
+        "question": "Voulez-vous activer Virement SEPA / ISO20022 ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Payez vos factures en un clic via le service Euro SEPA Service / ISO20022"
+    },
+    {
+        "section": "Numérisation",
+        "odoo_field": "module_account_extract",
+        "question": "Voulez-vous activer Numérisation de documents ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Numériser vos PDF ou vos documents scannés grâce à l'OCR et à l'Intelligence Artificielle"
+    },
+    {
+        "section": "Numérisation",
+        "odoo_field": "extract_in_invoice_digitalization_mode",
+        "question": "Voulez-vous activer Factures fournisseurs ?",
+        "data_type": "selection",
+        "options": [
+            "Ne pas numériser",
+            "Numériser sur demande uniquement",
+            "Numériser automatiquement"
+        ],
+        "description": ""
+    },
+    {
+        "section": "Numérisation",
+        "odoo_field": "extract_out_invoice_digitalization_mode",
+        "question": "Voulez-vous activer Factures clients ?",
+        "data_type": "selection",
+        "options": [
+            "Ne pas numériser",
+            "Numériser sur demande uniquement",
+            "Numériser automatiquement"
+        ],
+        "description": ""
+    },
+    {
+        "section": "Numérisation",
+        "odoo_field": "extract_single_line_per_tax",
+        "question": "Voulez-vous activer Ligne de facturation unique par taxe ?",
+        "data_type": "boolean",
+        "options": [],
+        "description": "Activer pour n'obtenir qu'une ligne de facture par taxe"
+    },
+    {
+        "section": "Mode Fiduciaires",
+        "odoo_field": "quick_edit_mode",
+        "question": "Voulez-vous activer Encodage rapide ?",
+        "data_type": "integer/char",
+        "options": [],
+        "description": ""
+    }
+]
